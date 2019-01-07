@@ -28,4 +28,5 @@ int main(void)
     printf("%.1lf\n",answer);
     answer = power(2,3);
     printf("%.1lf",answer);
+    
 }
