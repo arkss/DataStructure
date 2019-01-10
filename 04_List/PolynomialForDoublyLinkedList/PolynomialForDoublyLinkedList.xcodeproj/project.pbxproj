@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8448EEE921E60B7600451A6E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8448EEE821E60B7600451A6E /* main.c */; };
+		8448EF0F21E71FBF00451A6E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8448EF0E21E71FBF00451A6E /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8448EEE321E60B7500451A6E /* CopyFiles */ = {
+		8448EF0921E71FBF00451A6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8448EEE521E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dahangsig  PolynomialForDoublyLinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8448EEE821E60B7600451A6E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8448EF0B21E71FBF00451A6E /* PolynomialForDoublyLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PolynomialForDoublyLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		8448EF0E21E71FBF00451A6E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8448EEE221E60B7500451A6E /* Frameworks */ = {
+		8448EF0821E71FBF00451A6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8448EEDC21E60B7500451A6E = {
+		8448EF0221E71FBF00451A6E = {
 			isa = PBXGroup;
 			children = (
-				8448EEE721E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */,
-				8448EEE621E60B7500451A6E /* Products */,
+				8448EF0D21E71FBF00451A6E /* PolynomialForDoublyLinkedList */,
+				8448EF0C21E71FBF00451A6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8448EEE621E60B7500451A6E /* Products */ = {
+		8448EF0C21E71FBF00451A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8448EEE521E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */,
+				8448EF0B21E71FBF00451A6E /* PolynomialForDoublyLinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8448EEE721E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */ = {
+		8448EF0D21E71FBF00451A6E /* PolynomialForDoublyLinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				8448EEE821E60B7600451A6E /* main.c */,
+				8448EF0E21E71FBF00451A6E /* main.c */,
 			);
-			path = "dahangsig  PolynomialForDoublyLinkedList";
+			path = PolynomialForDoublyLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8448EEE421E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */ = {
+		8448EF0A21E71FBF00451A6E /* PolynomialForDoublyLinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8448EEEC21E60B7600451A6E /* Build configuration list for PBXNativeTarget "dahangsig  PolynomialForDoublyLinkedList" */;
+			buildConfigurationList = 8448EF1221E71FBF00451A6E /* Build configuration list for PBXNativeTarget "PolynomialForDoublyLinkedList" */;
 			buildPhases = (
-				8448EEE121E60B7500451A6E /* Sources */,
-				8448EEE221E60B7500451A6E /* Frameworks */,
-				8448EEE321E60B7500451A6E /* CopyFiles */,
+				8448EF0721E71FBF00451A6E /* Sources */,
+				8448EF0821E71FBF00451A6E /* Frameworks */,
+				8448EF0921E71FBF00451A6E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "dahangsig  PolynomialForDoublyLinkedList";
-			productName = "dahangsig  PolynomialForDoublyLinkedList";
-			productReference = 8448EEE521E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */;
+			name = PolynomialForDoublyLinkedList;
+			productName = PolynomialForDoublyLinkedList;
+			productReference = 8448EF0B21E71FBF00451A6E /* PolynomialForDoublyLinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8448EEDD21E60B7500451A6E /* Project object */ = {
+		8448EF0321E71FBF00451A6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = ark;
 				TargetAttributes = {
-					8448EEE421E60B7500451A6E = {
+					8448EF0A21E71FBF00451A6E = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 8448EEE021E60B7500451A6E /* Build configuration list for PBXProject "dahangsig  PolynomialForDoublyLinkedList" */;
+			buildConfigurationList = 8448EF0621E71FBF00451A6E /* Build configuration list for PBXProject "PolynomialForDoublyLinkedList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8448EEDC21E60B7500451A6E;
-			productRefGroup = 8448EEE621E60B7500451A6E /* Products */;
+			mainGroup = 8448EF0221E71FBF00451A6E;
+			productRefGroup = 8448EF0C21E71FBF00451A6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8448EEE421E60B7500451A6E /* dahangsig  PolynomialForDoublyLinkedList */,
+				8448EF0A21E71FBF00451A6E /* PolynomialForDoublyLinkedList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8448EEE121E60B7500451A6E /* Sources */ = {
+		8448EF0721E71FBF00451A6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8448EEE921E60B7600451A6E /* main.c in Sources */,
+				8448EF0F21E71FBF00451A6E /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8448EEEA21E60B7600451A6E /* Debug */ = {
+		8448EF1021E71FBF00451A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		8448EEEB21E60B7600451A6E /* Release */ = {
+		8448EF1121E71FBF00451A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		8448EEED21E60B7600451A6E /* Debug */ = {
+		8448EF1321E71FBF00451A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -244,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		8448EEEE21E60B7600451A6E /* Release */ = {
+		8448EF1421E71FBF00451A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8448EEE021E60B7500451A6E /* Build configuration list for PBXProject "dahangsig  PolynomialForDoublyLinkedList" */ = {
+		8448EF0621E71FBF00451A6E /* Build configuration list for PBXProject "PolynomialForDoublyLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8448EEEA21E60B7600451A6E /* Debug */,
-				8448EEEB21E60B7600451A6E /* Release */,
+				8448EF1021E71FBF00451A6E /* Debug */,
+				8448EF1121E71FBF00451A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8448EEEC21E60B7600451A6E /* Build configuration list for PBXNativeTarget "dahangsig  PolynomialForDoublyLinkedList" */ = {
+		8448EF1221E71FBF00451A6E /* Build configuration list for PBXNativeTarget "PolynomialForDoublyLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8448EEED21E60B7600451A6E /* Debug */,
-				8448EEEE21E60B7600451A6E /* Release */,
+				8448EF1321E71FBF00451A6E /* Debug */,
+				8448EF1421E71FBF00451A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8448EEDD21E60B7500451A6E /* Project object */;
+	rootObject = 8448EF0321E71FBF00451A6E /* Project object */;
 }
