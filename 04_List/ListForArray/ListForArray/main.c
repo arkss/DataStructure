@@ -58,6 +58,54 @@ void add(ArrayListType *L, int position, element item)
     }
 }
 
+// 맨 앞에 요소를 추가하는 함수
+void add_first(ArrayListType *L, element item)
+{
+    add(L,0,item);
+}
+
+// 맨 끝에 요소를 추가하는 함수
+void add_last(ArrayListType *L, element item)
+{
+    add(L,L->length,item);
+}
+
+// 리스트의 모든 요소를 제거하는 함수, init함수 동일.
+void clear_all(ArrayListType *L)
+{
+    L->length = 0;
+}
+
+// pos 위치이의 요소를 아이템으로 바꾸는 함수
+void replace(ArrayListType *L, int position, element item)
+{
+    L->list[position] = item;
+}
+
+//item이 list에 있는지 검사하는 함수
+int is_in_list(ArrayListType *L, element item)
+{
+    int i;
+    for(i=0;i<(L->length);i++){
+        if (L->list[i] == item) return 1;
+    }
+    return 0;
+}
+
+//pos의 위치의 요소롤 반환하는 함수
+element get_entry(ArrayListType *L, int position)
+{
+    if (position < 0 || position >= L->length)
+        error("index 에러\n");
+    return L->list[position];
+}
+
+// 리스트의 길이를 구하는 함수
+int get_length(ArrayListType *L)
+{
+    return L->length;
+}
+
 // 리스트에 항목을 삭제하는 함수
 element delete(ArrayListType *L,int position)
 {
