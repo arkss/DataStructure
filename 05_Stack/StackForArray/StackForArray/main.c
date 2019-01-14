@@ -53,13 +53,22 @@ element peek(StackType *s)
     else return s->stack[(s->top)];
 }
 
+// 스택에 값이 몇 개 저장 되어 있는지 확인하는 함수
+element size(StackType *s)
+{
+    return (s->top)+1;
+}
+
 int main(void)
 {
+    int Stack_Size;
     StackType s;
     init(&s);
     push(&s, 1);
     push(&s, 2);
     push(&s, 3);
+    Stack_Size = size(&s);
+    printf("%d\n", Stack_Size);
     printf("%d\n", pop(&s));
     printf("%d\n", pop(&s));
     printf("%d\n", pop(&s));
