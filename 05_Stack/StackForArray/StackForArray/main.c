@@ -32,6 +32,7 @@ void push(StackType *s, element item)
     }
     else s->stack[++(s->top)] = item;
 }
+
 // pop 함수
 element pop(StackType *s)
 {
@@ -41,7 +42,7 @@ element pop(StackType *s)
     }
     else return s->stack[(s->top)--];
 }
- 
+
 //peek함수, top에 있는 값만 확인
 element peek(StackType *s)
 {
