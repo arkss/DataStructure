@@ -74,29 +74,38 @@ void infix_to_postfix(char exp[])
     
     init(&s);
     for(i=0;i<len;i++){
+        // 입력받은 문자열에서 값을 하나씩 가져온다.
         ch = exp[i];
         switch(ch){
+            // 연산자를 가져 왔을 경우.
             case '+': case '-': case '*': case '/':
+                // 스택이 비어있지 않고, 현재 스택 안에 있는 연산자가 우선순위가 더 높을 경우에는
                 while(!is_empty(&s) && (prec(ch) <= prec(peek(&s))))
+                    // 스택에 있는 것을 pop 한다.
                     printf("%c",pop(&s));
+                // 아닐 경우에는 스택에 넣어준다.
                 push(&s, ch);
                 break;
+            // ( 를 받은 경우에는 무조검 스택에 넣어준다.
             case '(':
                 push(&s, ch);
                 break;
+            // ) 을 받은 경우에는
             case ')':
                 top_op = pop(&s);
+                // 스택에서 ( 을 만날 때까지 뽑아서 출력한다.
                 while(top_op != '('){
                     printf("%c",top_op);
                     top_op = pop(&s);
                 }
                 break;
+            // 숫자를 받으면 바로 출력한다.
             default:
                 printf("%c",ch);
                 break;
             }
     }
-    
+    // 스택이 빌 때까지 남은 것들을 모두 출력한다.
     while(!is_empty(&s))
         printf("%c",pop(&s));
 }
