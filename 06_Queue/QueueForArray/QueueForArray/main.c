@@ -57,7 +57,7 @@ element peek(QueueType *q)
 }
 
 int main(void)
-{
+{ 
     QueueType q;
     init(&q);
     printf("front=%d rear=%d\n",q.front, q.rear);
