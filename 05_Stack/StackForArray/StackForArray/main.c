@@ -41,7 +41,7 @@ element pop(StackType *s)
     }
     else return s->stack[(s->top)--];
 }
-
+ 
 //peek함수, top에 있는 값만 확인
 element peek(StackType *s)
 {
