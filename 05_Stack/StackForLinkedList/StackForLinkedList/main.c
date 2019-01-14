@@ -63,14 +63,28 @@ element peek(LinkedStackType *s)
         return s->top->item;
     }
 }
-
+// 스택의 크기가 몇인지 측정하는 함수
+element size(LinkedStackType *s)
+{
+    StackNode *temp = s->top;
+    int count = 0;
+    while (temp != NULL)
+    {
+        count++;
+        temp = temp->link;
+    }
+    return count;
+}
 int main(void)
 {
+    int Stack_Size;
     LinkedStackType s;
     init(&s);
     push(&s,1);
     push(&s,2);
     push(&s,3);
+    Stack_Size = size(&s);
+    printf("size : %d\n", Stack_Size);
     printf("%d\n",pop(&s));
     printf("%d\n",pop(&s));
     printf("%d\n",pop(&s));
