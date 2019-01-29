@@ -30,7 +30,7 @@ void preorders(TreeNode *root)
     if (root){
         printf("%d->",root->data);
         preorders(root->left);
-        preorders(root->left);
+        preorders(root->right);
     }
 }
 
@@ -46,10 +46,10 @@ void postorders(TreeNode *root)
 
 
 int main(int argc, const char * argv[]) {
-    inorders(root);
+    inorders(root); // 1->4->15->16->20->25->
     printf("\n");
-    preorders(root);
+    preorders(root); // 15->4->1->20->16->25->
     printf("\n");
-    postorders(root);
+    postorders(root); // 1->4->16->25->20->15->
     printf("\n");
 }
